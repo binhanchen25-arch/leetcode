@@ -23,8 +23,8 @@ jobs:
 
     - name: Commit and Push changes
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "binhanchen25-arch"
+        git config --global user.email "binhanchen25@gmail.com "
         
         git add README.md
         # 只有在有文件变动时才 commit，防止没有变动时报错
